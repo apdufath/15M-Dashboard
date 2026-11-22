@@ -252,3 +252,148 @@ body {
     font-size: 28px;
   }
 }
+
+
+/* =========================
+   FINANCE SECTION
+========================= */
+
+.finance-page h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #172033;
+  margin-bottom: 25px;
+}
+
+/* Finance Form */
+
+.finance-form {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 25px;
+  box-shadow: 0 3px 10px #ddd;
+}
+
+.finance-form h2 {
+  font-size: 22px;
+  margin-bottom: 18px;
+  color: #333;
+}
+
+.finance-form form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+.finance-form input,
+.finance-form select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.finance-form button {
+  background: green;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  width: fit-content;
+}
+
+/* Finance Cards */
+
+.finance-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 18px;
+  margin-bottom: 25px;
+}
+
+.finance-card {
+  background: white;
+  padding: 28px 20px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px #ddd;
+  border-left: 5px solid;
+}
+
+.finance-card h3 {
+  color: #555;
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+.finance-card h2 {
+  font-size: 28px;
+}
+
+/* Finance List */
+
+.finance-list {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 3px 10px #ddd;
+  overflow-x: auto;
+}
+
+.finance-list h2 {
+  margin-bottom: 35px;
+  font-size: 24px;
+  color: #333;
+}
+
+.finance-list table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.finance-list th {
+  background: #e5e7eb;
+  padding: 14px;
+}
+
+.finance-list td {
+  padding: 14px;
+  border: 1px solid #ddd;
+}
+
+.finance-list .paid {
+  color: green;
+  font-weight: bold;
+}
+
+.finance-list .unpaid {
+  color: red;
+  font-weight: bold;
+}
+
+/* Finance Responsive */
+
+@media (max-width: 1000px) {
+  .finance-cards {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .finance-form form {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .finance-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .finance-form form {
+    grid-template-columns: 1fr;
+  }
+}
