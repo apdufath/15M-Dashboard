@@ -21,7 +21,7 @@ function Home() {
           <h3>Departments</h3>
           <h2>12</h2>
         </div>
-      </div>
+      </div> 
 
       <div className="bottom">
         <div className="box">
