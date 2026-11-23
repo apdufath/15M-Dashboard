@@ -33,3 +33,34 @@ ADD Email VARCHAR(50);
 
 ALTER TABLE Students
 ADD Address VARCHAR(100);
+
+
+-- Database day two 
+
+
+CREATE DATABASE SchoolDB;
+
+USE SchoolDB;
+
+CREATE TABLE Students (
+    student_id INT PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(50),
+    last_name VARCHAR(50),
+    age INT,
+    gender VARCHAR(10)
+);
+
+INSERT INTO Students (first_name, last_name, age, gender)
+VALUES
+('Ahmed', 'Ali', 20, 'Male'),
+('Mohamed', 'Hassan', 21, 'Male'),
+('Amina', 'Abdi', 19, 'Female'),
+('Fatima', 'Omar', 22, 'Female'),
+('Abdi', 'Yusuf', 23, 'Male'),
+('Hodan', 'Ahmed', 20, 'Female'),
+('Khalid', 'Mohamed', 24, 'Male'),
+('Sahra', 'Ali', 18, 'Female'),
+('Ismail', 'Farah', 22, 'Male'),
+('Maryan', 'Abdullahi', 21, 'Female');
+
+SELECT * FROM Students;
