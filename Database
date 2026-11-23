@@ -1,0 +1,35 @@
+CREATE DATABASE Student_Registration;
+GO
+
+USE Student_Registration;
+GO
+
+
+CREATE TABLE Students (
+    ID INT PRIMARY KEY,
+    First_Name VARCHAR(20),
+    Last_Name VARCHAR(20),
+    Age INT,
+    Phone VARCHAR(20),
+    Grade VARCHAR(10),
+    Class VARCHAR(10),
+    Section VARCHAR(10)
+);
+
+
+INSERT INTO Students
+(ID, First_Name, Last_Name, Age, Phone, Grade, Class, Section)
+VALUES
+(1, 'Abdi', 'Bashe', 20, '4712862', 'Grade 12', 'A', 'A1');
+
+INSERT INTO Students
+(ID, First_Name, Last_Name, Age, Phone, Grade, Class, Section)
+VALUES
+(1, 'Guuleed', 'Mohammed', 20, '4712862', 'Grade 12', 'A', 'A1');
+
+
+ALTER TABLE Students
+ADD Email VARCHAR(50);
+
+ALTER TABLE Students
+ADD Address VARCHAR(100);
