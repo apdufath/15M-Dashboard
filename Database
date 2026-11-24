@@ -64,3 +64,8 @@ VALUES
 ('Maryan', 'Abdullahi', 21, 'Female');
 
 SELECT * FROM Students;
+SELECT * FROM Students;
+SELECT * FROM Students;
+SELECT * FROM Students;
+SELECT * FROM Students;
+SELECT * FROM Students;
