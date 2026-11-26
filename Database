@@ -33,7 +33,7 @@ ALTER TABLE Students
 ADD Address VARCHAR(100);
 
 
--- Database day two 
+-- Database day two
 
 
 CREATE DATABASE SchoolDB;
