@@ -16,7 +16,6 @@ CREATE TABLE Students (
     Section VARCHAR(10) 
 );
 
-
 INSERT INTO Students
 (ID, First_Name, Last_Name, Age, Phone, Grade, Class, Section)
 VALUES
