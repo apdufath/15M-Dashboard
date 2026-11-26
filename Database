@@ -13,7 +13,7 @@ CREATE TABLE Students (
     Grade VARCHAR(10),
     Class VARCHAR(10),
     Section VARCHAR(10) 
-);
+); 
 
 INSERT INTO Students
 (ID, First_Name, Last_Name, Age, Phone, Grade, Class, Section)
