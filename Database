@@ -4,7 +4,7 @@ GO
 USE Student_Registration;
 GO
 
-
+ 
 CREATE TABLE Students (
     ID INT PRIMARY KEY,
     First_Name VARCHAR(20),
@@ -13,7 +13,7 @@ CREATE TABLE Students (
     Phone VARCHAR(20),
     Grade VARCHAR(10),
     Class VARCHAR(10),
-    Section VARCHAR(10)
+    Section VARCHAR(10) 
 );
 
 
