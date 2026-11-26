@@ -3,7 +3,7 @@ GO
 
 USE Student_Registration;
 GO
-
+ 
 CREATE TABLE Students (
     ID INT PRIMARY KEY,
     First_Name VARCHAR(20),
