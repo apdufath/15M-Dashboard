@@ -1,5 +1,5 @@
 CREATE DATABASE Student_Registration;
-GO 
+GO
 
 USE Student_Registration;
 GO 
