@@ -1,4 +1,4 @@
-CREATE DATABASE Student_Registration;
+CREATE DATABASE Student_Registration; 
 GO 
  
 USE Student_Registration;
