@@ -2,7 +2,7 @@ CREATE DATABASE Student_Registration;
 GO 
  
 USE Student_Registration;
-GO 
+GO  
     
 CREATE TABLE Students ( 
     ID INT PRIMARY KEY,
